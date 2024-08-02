@@ -40,7 +40,7 @@
           <td><?= $d['Prestasi']; ?></td>
           <td>
             <a href="edit.php?id=<?= $d['id']  ?>">EDIT</a>
-            <a href="">HAPUS</a>
+            <a href="hapus.php?id=<?= $d['id']; ?>">HAPUS</a>
           </td>
         </tr>
       <?php
